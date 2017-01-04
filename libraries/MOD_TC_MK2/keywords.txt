@@ -1,0 +1,52 @@
+#######################################
+# Syntax Coloring Map For Wire
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+pinMode KEYWORD2
+digitalWrite KEYWORD2
+digitalRead KEYWORD2
+analogRead KEYWORD2
+pullupMode KEYWORD2
+temperatureRead KEYWORD2
+setAddress KEYWORD2
+getID KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+TC-MK2 KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ANALOG_0 LITERAL1
+ANALOG_1 LITERAL1
+ANALOG_2 LITERAL1
+ANALOG_6 LITERAL1
+ANALOG_7 LITERAL1
+GPIO_0 LITERAL1
+GPIO_1 LITERAL1
+GPIO_2 LITERAL1
+GPIO_3 LITERAL1
+GPIO_4 LITERAL1
+GPIO_5 LITERAL1
+GPIO_6 LITERAL1
+PU_0 LITERAL1
+PU_1 LITERAL1
+PU_2 LITERAL1
+PU_3 LITERAL1
+PU_4 LITERAL1
+IN LITERAL1
+OUT LITERAL1
+HI LITERAL1
+LO LITERAL1
