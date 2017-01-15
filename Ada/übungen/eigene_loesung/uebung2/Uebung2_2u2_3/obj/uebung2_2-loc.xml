@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\uebung2_2.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Semaphore_Package.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_file>C:\Users\Andreas\Dropbox\CCS\02_Semester_2_Vorgaenger\99_Archiv\CCS\Echtzeitsysteme\#195;#156;bungen\eigene_Loesung\Uebung2\Uebung2_2u2_3\src\Ressource.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file  />
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Users\Sabine\workSpaceAda\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file  />
+    </file_marker>
+    <file_marker current="true" column=" 21" line=" 2">
+      <vfs_file >C:\Users\Sabine\workSpaceAda\Ubung_2\helloWorld.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

@@ -1,0 +1,14 @@
+procedure Main is
+   package Semaphore_Package is
+      type Semaphore(Initial: Natural := 1) is limited private;
+      procedure wait(S: in out Semaphore);
+      procedure signal(S: in out Semaphore);
+   private
+      type Semaphore is ... ;
+   end Semaphore_Package;
+
+
+begin
+   --  Insert code here.
+   null;
+end Main;

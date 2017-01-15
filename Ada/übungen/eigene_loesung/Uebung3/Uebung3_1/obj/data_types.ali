@@ -1,0 +1,21 @@
+V "GNAT Lib v2013"
+A -gnatA
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U data_types%s		data_types.ads		8bb420c8 NE OO PK
+
+D data_types.ads	20131203094514 8bb420c8
+D system.ads		20130417131036 5fc8ae56
+X 1 data_types.ads
+1K9*Data_Types 7l5 7e15
+3I8*Temp_Reading<integer>
+4I8*Pressure_Reading<integer>
+5E8*Heater_Setting 5e35
+5n27*On{5E8}
+5n31*Off{5E8}
+6I8*Pressure_Setting<integer>
+
