@@ -1,0 +1,61 @@
+Tagtäglich verwenden wir die Displays unserer Mobilgeräte zur Eingabe verschiedenster Daten - sei es zur Steuerung von Anwendungen, zur Eingabe eines Textes mithilfe einer virtuellen Tastatur oder zur Verfassung handschriftlicher Notizen. Oftmals ist es wenig komfortabel, all dies mit einem klein-dimensionierten Smartphone oder gar einer Smartwatch durchzuführen, daher stellt sich insbesondere eine Frage in den Vordergrund: \enquote{Inwiefern ist es möglich, die Eingabefläche eines mobilen Geräts virtuell zu erweitern und dadurch die User-Experience zu optimieren?}
+
+Dieses Kapitel widmet sich der Beantwortung dieser Frage, indem verschiedene Ansätze und Technologien zur Realisierung der erweiterten Eingabe betrachtet werden.
+
+\subsection{Kompassbasiertes Vorgehen}
+
+Der Artikel \textit{Input Techniques to the Surface around a Smartphone using a Magnet Attached on a Stylus} \cite{Abe.2015} behandelt die Verwendung eines magnetischen Touchpens (Stylus) zur radialen Erweiterung der Eingabefläche eines Smartphones. Dabei dient eine beliebige, nicht-magnetische Oberfläche als virtuelles Touchpad. Innerhalb eines Radius von etwa 14 cm können Eingaben mithilfe des magnetischen Stylus vom Kompass-Sensor eines Smartphones registriert und in zweidimensionale Koordinaten transformiert werden. Damit die Positionserkennung zuverlässig funktioniert, muss der Nutzer den Touchpen so halten, dass der Magnet senkrecht und mit dem Nordpol zur nicht-magnetischen Oberfläche ausgerichtet ist.
+
+\subsubsection{Prinzip}
+Durch den Magneten wird ein künstliches Magnetfeld erschaffen, das vom Kompasssensor des Smartphones erkannt wird. Anhand der Abweichungen vom Erdmagnetfeld kann das Smartphone dann unter Berücksichtigung der Länge des Magneten die Koordinaten des Touchpens ermitteln.
+
+\subsubsection{Bewertung}
+Aufgrund der geringen durchschnittlichen Positionsabweichung (acht Millimeter) sowie der hohen Erfassungsfrequenz (50 Koordinaten pro Sekunde) kann die Technologie durchaus als alltagstauglich bezeichnet werden und in Echtzeitanwendungen zum Einsatz kommen.
+
+Darüber hinaus ist es nicht erforderlich, das Smartphone aufzurüsten, da der erforderliche Magnetsensor in allen modernen Smartphones bereits integriert ist - lediglich ein magnetischer Touchpen zur Eingabe ist erforderlich.
+
+Problematisch hingegen ist die Erkennung, zu welchem Zeitpunkt tatsächlich geschrieben wird. Hierbei schafft eine modifizierte Version des Stylus, bei der ein Elektromagnet zum Einsatz kommt, Abhilfe. Bei dieser Variante wird der Magnet mithilfe eines Schalters an der Unterseite des Stifts immer dann eingeschaltet, wenn er die Oberfläche berührt.
+
+Das wohl größte Defizit dieser Technologie ist der geringe Erfassungsradius, der die Eingabefläche des Smartphones zwar um ein mehrfaches übertrifft, für einige Anwendungen aber dennoch zu gering sein dürfte.
+
+\subsection{Elektrizitätsbasiertes Vorgehen}\label{SkinTrack}
+
+\textit{SkinTrack} \cite{Zhang.2015} basiert im Gegensatz zum im vorherigen Kapitel beschriebenen kompassbasierten Vorgehen auf Elektrizität und macht sich die Eigenschaft der elektrischen Leitfähigkeit des menschlichen Körpers zunutze. Dieses Detail lässt bereits darauf schließen, dass das Verfahren vor allem in Verbindung mit einer Smartwatch geeignet ist, da diese direkt an der Haut des Trägers anliegt und dementsprechend die elektrischen Impulse des Körpers messen kann. Dabei dient prinzipiell der gesamte Arm (inklusive Hand) als zweidimensionale Eingabefläche für die Smartwatch.
+
+\subsubsection{Prinzip}
+Zur Positionserkennung werden hochfrequente, elektromagnetische Wellen von einem am Zeigefinger getragenen Ring ausgestoßen und von mehreren Elektroden (Sensoren) empfangen, die an der Unterseite der Smartwatch des Trägers angebracht sind. Durch die Berechnung der Phasendifferenz zwischen zwei Elektroden mithilfe von Phasendetektoren kann nun die Entfernung des Fingers zur Smartwatch berechnet werden. Um zweidimensionale Koordinaten zu erhalten, sind zwei Elektrodenpaare erforderlich (links/rechts angeordnete Elektroden für die X-Koordinate und oben/unten angeordnete Elektroden für die Y-Koordinate). Das berechnete Ergebnis kann nun mittels Bluetooth in Echtzeit an die Smartwatch gesendet werden.
+
+Da jeder menschliche Körper unterschiedlich beschaffen ist, variiert die Genauigkeit der Positionsbestimmung stark - für zuverlässige Ergebnisse ist eine einmalige Kalibrierung daher unabdingbar. Diese Kalibrierung wird durch das Trainieren eines Klassifikators, einer sog. \textit{Support Vector Machine} erreicht.
+
+\subsubsection{Bewertung}
+\textit{SkinTrack} kann mit der im vorherigen Kapitel beleuchteten Methode mithalten, da mit dieser Technologie eine hohe Präzision sowie Echtzeitfähigkeit erreicht wird. Neben der direkten Erkennung des Fingers auf der Haut ist auch die Positionsbestimmung durch dünne Kleidungsschichten möglich. Darüber hinaus ist die virtuelle Eingabefläche sehr viel höher als bei Kompass-basierten Verfahren. 
+
+Nichtsdestotrotz ist diese Technologie eher für Smartwatches ausgelegt und für Smartphones zunächst eher ungeeignet (außer auf leitfähigem Untergrund). Außerdem ist zusätzliche Hardware sowohl für den Aktuator (Ring) als auch für die Sensorik (Elektroden) erforderlich. Das täglich erforderliche Aufladen des Ring-Akkus könnte die User-Experience ebenfalls negativ beeinträchtigen.
+
+\subsection{Sonarbasiertes Vorgehen}
+
+Auch \textit{FingerIO} \cite{Nandakumar.2015} dient zur Erweiterung der Eingabefläche eines mobilen Endgeräts, nutzt im Gegensatz zu den zuvor genannten Methoden jedoch in ein Smartphone integrierte Lautsprecher und Mikrofone zur Detektion von Fingerbewegungen. Dabei macht es sich die Eigenschaft zunutze, dass Schall von Objekten reflektiert und als Echo zurückgeworfen wird. Das Smartphone fungiert also prinzipiell als aktives Sonarsystem, das die Entfernung zu einem Objekt und unter Verwendung von zwei Mikrofonen auch die zweidimensionale Position eines Objekts identifizieren kann.
+
+\subsubsection{Prinzip}
+Der Lautsprecher des Smartphones sendet bestimmte, hochfrequente Sequenzen aus, die von Objekten reflektiert werden. Für eine möglichst hohe Qualität der Ergebnisse wird hierfür ein orthogonales Frequenzmultiplexverfahren (OFDM) verwendet. Die im Smartphone integrierten Mikrophone erkennen das durch den Finger erzeugte Echo und können anhand der Zeit, die für die zurückgelegte Strecke benötigt wird, die Entfernung des Fingers zum Gerät ermitteln.
+
+Das Resultat ist die Transformation der Fingerbewegung auf einer beliebigen Fläche in ein zweidimensionales Koordinatensystem. Aufgrund der Eigenschaft, dass sich Schall durch die Luft ausbreitet, ist es noch nicht einmal erforderlich, dass sich der Finger auf derselben Oberfläche wie das Mobilgerät befinden muss (die Kommunikation erfolgt über die Luft).
+
+\subsubsection{Bewertung}
+\textit{FingerIO} bietet eine große virtuelle Eingabefläche, die den Touchscreen eines Smartphones um bis zu $0,5 m^2$  erweitert. Der entscheidende Vorteil hierbei ist, dass die Bedienung nicht an eine Oberfläche gebunden ist, da die Kommunikation auch über die Luft erfolgen kann. Die präzisen Erkennung von Fingerbewegungen ist dabei nicht nur direkt, sondern auch durch Kleidungsschichten oder andere durchlässige Objekte zwischen Finger und Mobilgerät möglich. Da diese Technologie komplett mithilfe der internen Hardware eines Smartphones realisierbar ist, ist keinerlei zusätzliche Hardware vonnöten. Lediglich die Akkulaufzeit wird vermindert.
+
+Da \textit{FingerIO} auf Schallwellen basiert, können hochfrequente Töne die Genauigkeit der Erkennung beeinflussen und die Benutzbarkeit entsprechend einschränken. In lauten Umgebungen bleibt die Anwendung dennoch vollständig benutzbar, da sämtliche hörbare Geräusche deutlich unterhalb des Frequenzbereichs liegen, mit dem \textit{FingerIO} arbeitet.
+
+\subsection{Körperpotentialbasiertes Verfahren}
+
+Einen etwas anderen Weg bestreiten die Entwickler von \textit{Botential} \cite{Matthies.2015}, das zwar ähnlich wie bei \textit{SkinTrack} (vgl. Kapitel \ref{SkinTrack}) die elektrischen Eigenschaften des menschlichen Körpers nutzt, jedoch nicht die Leitfähigkeit, sondern das Ruhepotential verschiedener Körperregionen zur Erfassung von Benutzereingaben verwendet.
+
+Da jede Körperregion eine individuelle elektrische und immer gleichbleibende Signatur hat, kann das Berühren einer zuvor kalibrierten Körperregion mit einem speziellen Sensor eindeutig zugeordnet und in eine eingestellte Aktion umgesetzt werden. Prinzipiell dient also der gesamte Körper als Eingabefläche, allerdings nicht als zweidimensionales Feld wie bei den zuvor angesprochenen Methoden.
+
+\subsubsection{Prinzip}
+Mithilfe eines Elektromyografie-Sensors (EMG) können Ruhepotential und Muskelaktivitäten verschiedener Körperregionen erfasst werden. Zur Kalibrierung einer beliebigen Körperregion werden die Aktivitäten dieser Region mithilfe des EMG-Sensors aufgezeichnet. Beim anschließenden Berühren mit dem Sensor kann die gemessene Signatur mit der zuvor aufgezeichneten Signatur abgeglichen werden. Bei einer Übereinstimmung wird die zuvor an die Körperregion zugewiesene Aktion (z.B. Ablehnen oder Annehmen eines Anrufs) per Bluetooth an das gekoppelte Mobilgerät übermittelt. 
+
+\subsubsection{Bewertung}
+Die korrekte Erkennung einer zuvor kalibrierten Körperregion ist sehr zuverlässig, selbst bei geringem Abstand zwischen mehreren kalibrierten Regionen ist eine eindeutige Bestimmung möglich. Darüber hinaus wird Hovering  mit bis zu vier Zentimetern Abstand unterstützt, wodurch eine Anwendung auch durch Kleidungsschichten möglich ist.
+
+Nachteil dieses Verfahrens ist die Erforderlichkeit eines Microcontrollers mit EMG-Sensor und Bluetooth-Modul. Aufgrund der geringe Größe des Controllers ist eine Integration in gewöhnliche Alltagsgegenstände oder Accessoires (z.B. Armbänder oder Halsketten) jedoch problemlos möglich.
