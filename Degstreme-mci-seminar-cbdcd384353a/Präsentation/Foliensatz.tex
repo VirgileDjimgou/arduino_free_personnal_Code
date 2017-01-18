@@ -1,0 +1,80 @@
+\documentclass[ngerman]{presentation}
+
+% Pfad für Eingabedateien
+\makeatletter
+\def\input@path{{chapters/}}
+\makeatother
+
+% ----------------------------------------------
+\title[Titel]{\textbf{Neue Eingabetechnologien für\\Smartphones und Smartwatches}}
+\subtitle[Kurs]{Fortgeschrittene Mensch-Computer-Interaktion}
+\author{Jan Strohbeck, Patrick Djimgou, Dominik Bergen}
+\institute[Hochschule Aalen] {
+	Studiengang Informatik (Master of Science)\\
+	Hochschule Aalen - Technik und Wirtschaft
+}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+% ----------------------------------------------
+\begin{frame}{\contentsname}
+\tableofcontents
+\end{frame}
+
+% ----------------------------------------------
+\section{Motivation}
+\begin{frame}
+\begin{block}{Blocktitel}
+Abschnitt
+\end{block}
+\end{frame}
+
+% ----------------------------------------------
+\section{Grundlagen}
+\begin{frame}
+\begin{block}{Blocktitel}
+Eventuell Erklärung von Begrifflichkeiten
+\end{block}
+\end{frame}
+
+% ----------------------------------------------
+\section{Technologien}
+\begin{frame}
+\begin{block}{Blocktitel}
+Überblick über die in diesem Abschnitt behandelten Technologien
+\end{block}
+\end{frame}
+
+% ----------------------------------------------
+\subsection{Virtuelle Touchpads}
+\input{virtual-touchpads}
+
+% ----------------------------------------------
+\subsection{Dreidimensionales Finger-Tracking}
+\input{finger-tracking}
+
+% ----------------------------------------------
+\subsection{Gestenerkennung in der Luft}
+\input{mid-air-gestures}
+
+% ----------------------------------------------
+\subsection{Interaktion mit Smart Objects}
+\input{smart-objects}
+
+% ----------------------------------------------
+\subsection{Optimierung von Tastatureingaben}
+\input{keyboard-input}
+
+% ----------------------------------------------
+\section{Ausblick}
+\begin{frame}
+\begin{block}{Blocktitel}
+Zusammenfassung, Fazit und Ausblick
+\end{block}
+\end{frame}
+
+% ----------------------------------------------
+\end{document}

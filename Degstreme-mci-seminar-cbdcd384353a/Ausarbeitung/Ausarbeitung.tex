@@ -1,0 +1,101 @@
+\documentclass[oneside]{elaboration}
+\usepackage{inconsolata}
+\nocite{*}
+
+% Pfad für Eingabedateien
+
+\makeatletter
+\def\input@path{{chapters/}}
+\makeatother
+
+% Deckblatt
+
+\begin{document}
+
+\author{Patrick Djimgou, Jan Strohbeck und Dominik Bergen}
+\title{\textbf{Neue Eingabetechnologien für Mobilgeräte und Smartwatches}}
+\doctype{Fortgeschrittene Mensch-Computer-Interaktion}
+\examinerA{Prof. Dr. Detlef Küpper}
+\date{\today}
+
+\maketitle
+\newpage
+
+% Kurzfassung
+
+\chapter*{Kurzfassung}
+Allgemeine Informationen zum Inhalt dieser Ausarbeitung und kurze Beleuchtung der untersuchten Eingabemöglichkeiten
+
+% Inhaltsverzeichnis
+
+\tableofcontents
+\newpage
+
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+% Abbildungsverzeichnis
+
+\listoffigures
+\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+\newpage
+
+% Tabellenverzeichnis
+
+\listoftables
+\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Kapitel 1
+
+\chapter{Motivation}\label{Motivation}
+\begin{itemize}
+\item Aufzeigen von Grenzen und Problemen bei der Bedienung mobiler Geräte
+\item Kurze Beschreibung der im Folgenden behandelten Ideen, um diese Grenzen einzureißen
+\end{itemize}
+
+% Kapitel 2
+
+\chapter{Grundlagen}\label{Grundlagen}
+\begin{itemize}
+\item Begriffserläuterungen
+\item Beschreibung von in der Ausarbeitung verwendeten (Fach-)Begriffen
+\end{itemize}
+
+% Kapitel 3
+
+\chapter{Eingabetechnologien}\label{Eingabetechnologien}
+Kurze Beschreibung, worum es in diesem Kapitel geht
+
+\section{Virtuelle Touchpads}\label{Virtuelle Touchpads}
+\input{virtual-touchpads}
+
+\section{Dreidimensionales Finger-Tracking}\label{Finger-Tracking}
+\input{finger-tracking}
+
+\section{Gestenerkennung in der Luft}\label{Gestenerkennung}
+\input{mid-air-gestures}
+
+\section{Interaktion mit Smart Objects}\label{Smart Objects}
+\input{smart-objects}
+
+\section{Optimierung von Tastatureingaben}\label{Tastaturoptimierung}
+\input{keyboard-input}
+
+% Kapitel 4
+
+\chapter{Ausblick}\label{Ausblick}
+\begin{itemize}
+\item Zusammenfassung der behandelten Themen
+\item Prognose, welche Technologien sich durchsetzen werden
+\end{itemize}
+
+% Bibliografie
+
+\raggedright\bibliographystyle{alphadin}
+\bibliography{Ausarbeitung}{}
+
+\end{document}
